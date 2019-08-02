@@ -3,13 +3,23 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
-    "debug": "DEBUG=javascript-es6-express-app:* node ./bin/www"
+    "start": "node src/bin/www.js",
+    "debug": "DEBUG=javascript-es6-express-app:* node src/bin/www.js",
+    "server": "babel-node ./src/bin/www",
+    "dev": "NODE_ENV=development npm-run-all server",
+    "dev-debug": "DEBUG=javascript-es6-express-app:* NODE_ENV=development npm-run-all server"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "npm-run-all": "^4.1.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
   }
 }

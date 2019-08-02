@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/node,macos,intellij,visualstudiocode
-# Edit at https://www.gitignore.io/?templates=node,macos,intellij,visualstudiocode
+# Created by https://www.js.gitignore.io/api/node,macos,intellij,visualstudiocode
+# Edit at https://www.js.gitignore.io/?templates=node,macos,intellij,visualstudiocode
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
@@ -212,4 +212,4 @@ typings/
 # Ignore all local history of files
 .history
 
-# End of https://www.gitignore.io/api/node,macos,intellij,visualstudiocode
+# End of https://www.js.gitignore.io/api/node,macos,intellij,visualstudiocode
