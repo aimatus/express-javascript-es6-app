@@ -7,7 +7,8 @@
     "debug": "DEBUG=javascript-es6-express-app:* node src/bin/www.js",
     "server": "babel-node ./src/bin/www",
     "dev": "NODE_ENV=development npm-run-all server",
-    "dev-debug": "DEBUG=javascript-es6-express-app:* NODE_ENV=development npm-run-all server"
+    "dev-debug": "DEBUG=javascript-es6-express-app:* NODE_ENV=development npm-run-all server",
+    "test": "jest"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -20,6 +21,8 @@
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/node": "^7.5.5",
-    "@babel/preset-env": "^7.5.5"
+    "@babel/preset-env": "^7.5.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0"
   }
 }
